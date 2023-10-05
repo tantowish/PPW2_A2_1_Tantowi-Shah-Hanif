@@ -17,6 +17,7 @@
             <th scope="row">{{ $barang->id }}</th>
             <td>{{ $barang->nama_barang }}</td>
             <td>{{ $barang->harga }}</td>
+            <td>{{ $barang->stok }}</td>
             <td>{{ $barang->id_supplier }}</td>
         </tr> 
         @endforeach
